@@ -157,3 +157,8 @@
 .edit-mode .task-label {
   display: none;
 }
+
+.completed-tasks .task-label {
+  text-decoration: line-through;
+  color: #888;
+}
