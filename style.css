@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .banner {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .banner__img {
   width: 100%;
 }
+
 .banner .banner__link {
   font-family: fantasy, cursive;
   display: inline-block;
@@ -20,23 +24,29 @@
 }
 
 @media (max-width:768px) {
-.banner { 
-  text-align: center;
+
+  .banner { 
+    text-align: center;
+  }
+
 }
-}
+
 .todo {
   display: block;
   width: 500px;
   margin: 12px auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo-add__input-wrapper {
   display: flex;
 }
+
 #incomplete-tasks,
 #completed-tasks {
   margin: 0;
@@ -66,6 +76,7 @@
 }
 
 /* Heading */
+
 .page__header,
 .todo-add__header {
   color: #333;
@@ -76,6 +87,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task {
   margin: 0;
   font-size: 18px;
@@ -88,20 +100,24 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task:focus {
   color: #333;
 }
 
 /* New Task */
+
 .todo-add__header {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
 
 /* Task list */
+
 .task-item {
   overflow: hidden;
   padding: 19px 0;
@@ -111,6 +127,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task-item-checkbox {
   vertical-align: middle;
   margin: 0 10px;
@@ -125,19 +142,23 @@
   display: inline-block;
   flex-grow: 1;
 }
+
 .task {
   width: 226px;
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed-tasks-label {
   text-decoration: line-through;
   color: #888;
